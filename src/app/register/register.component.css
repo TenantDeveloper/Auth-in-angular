@@ -1,0 +1,48 @@
+button[type="submit"] {
+    min-width: 120px;
+    min-height: 44px;
+  background: linear-gradient(to right, #1CB5E0, #000046);
+  color:#fff;
+  border:none;
+  outline:none;
+  overflow: hidden;
+  box-shadow: none;
+  margin: auto;
+  display: block;
+  border-radius: 50px;
+  margin-top: 30px;
+}
+
+.form-container {
+    margin: 40px 0;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    transition: 0.4s all ease-in-out;
+}
+.form-container:hover {
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.15);
+}
+.form-container > div {
+    background: #fafafa;
+    padding: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.form-container div > h5 {
+    text-transform: uppercase;
+}
+.form-container form {
+    padding: 20px;
+}
+.form-container form div.form-group {
+    margin: 10px 0;
+    
+}
+
+.form-container form input {
+    background: #f1f1f1;
+    border-radius: 50px;
+    border: none;
+    box-shadow: none;
+    padding: 20px 15px;
+}

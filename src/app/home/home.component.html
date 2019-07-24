@@ -1,0 +1,25 @@
+<section>
+  <div class="container">
+    <div class="row col-sm-12">
+      <ul class="list-group" style="width: 100%;">
+        <li  class="list-group-item" *ngFor="let item of vacationList">
+          <div class="float-left">
+              <div>
+                <a [routerLink]="['vacancy',item.id]">
+                    {{item.name}}
+                </a>
+              </div>
+              <p>{{item.description}}</p>
+          </div>
+          <div class="float-right">
+               <span>{{item.categoryEnglishName}}</span>
+               
+          </div>
+          <div style="clear: both"> 
+
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</section>

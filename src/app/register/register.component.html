@@ -1,0 +1,40 @@
+<section>
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-sm-5 "> 
+          <div class="form-container">
+            <div class="text-center">
+                <h5> Register </h5>
+            </div>
+              <form [formGroup]="registerForm" (ngSubmit)="onSubmit()">
+                  <div class="form-group">
+                     <label for="fName"> First Name </label>
+                     <input type="text" formControlName="firstName" name="fname" id="fName" class="form-control" />
+                  </div>
+                  <div class="form-group">
+                    <label for="lName"> Last Name </label>
+                    <input type="text" formControlName="lastName"  name="lname" id="lName" class="form-control" />
+                  </div>
+                  <div class="form-group">
+                      <label for="email"> Email </label>
+                      <input type="email" formControlName="email" name="email" id="email" class="form-control" />
+                    </div>
+                    <div class="form-group">
+                      <label for="password">
+                        Password
+                       </label>
+                       <input type="password" formControlName="password" name="password" id="password" class="form-control">
+                     </div>
+                     <div class="form-group">
+                       <label for="rePassword"> Confirm Password</label>
+                       <input type="password" formControlName="confirmPassword" name="repassword" id="rePassword" class="form-control">
+                     </div>
+                     <div class="form-group">
+                       <button type="submit">Submit</button>
+                     </div>
+              </form>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>

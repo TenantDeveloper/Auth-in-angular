@@ -1,0 +1,23 @@
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+         <h5>{{vacancy.name}}</h5>
+         <span>{{vacancy.description}}</span>
+         <p>Skills</p>
+         <ul>
+           <li *ngFor="let item of vacancy.skills">
+             {{item}}
+           </li>
+         </ul>
+         <p>Responsibilities</p>
+         <ul>
+           <li *ngFor="let item of vacancy.responsibilities">
+             {{item}}
+           </li>
+         </ul>
+         
+      </div>
+    </div>
+  </div>
+</section>

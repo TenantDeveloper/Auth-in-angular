@@ -1,0 +1,10 @@
+footer {
+    background: #ddd;
+    padding: 10px;
+}
+.info {
+    
+    color:#333;
+    font-size: 16px;
+    text-transform: capitalize;
+}
